@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import {
   design_feature_arr,
   performance_feature_arr,
@@ -6,7 +6,6 @@ import {
   technology_feature_arr,
   safety_feature_arr,
 } from "./Content";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import Homeslider from "./Homeslider";
 const Features = () => {
@@ -208,7 +207,7 @@ const Features = () => {
               <div className="flex items-center justify-center ">
                 <div className="h-450px overflow-hidden">
                   <img
-                    src="./images/mahindra-thar-red-rage.png"
+                    src="./images/mahindra-thar-red-rage.png" alt="thar red"
                     className="height-fit"
                   />
                 </div>

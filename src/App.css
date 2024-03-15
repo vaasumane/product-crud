@@ -13,7 +13,9 @@
   z-index: -1;
   position: relative;
 }
-
+.nav-item{
+  cursor: pointer;
+}
 .nav-item:hover:after {
   left: 0;
   width: 100%;

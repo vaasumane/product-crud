@@ -29,9 +29,9 @@ const Gallery = () => {
               data-aos-easing="ease-in"
               data-aos-duration="600"
             >
-              <img src="../images/gallery/Thar8.png" className="xl:hidden" />
+              <img src="../images/gallery/Thar8.png" alt="gallery-img1" className="xl:hidden" />
               <img
-                src="../images/gallery/Thar1.png"
+                src="../images/gallery/Thar1.png" alt="gallery-img1"
                 className="hidden xl:block h-450px "
               />
             </div>
@@ -39,7 +39,7 @@ const Gallery = () => {
               <div className="grid grid-flow-col gap-4">
                 <div>
                   <img
-                    src="./images/gallery/Thar2.png"
+                    src="./images/gallery/Thar2.png" alt="gallery-img2"
                     className="m-3 img-fit"
                     data-aos="zoom-in-up"
                     data-aos-offset="200"
@@ -47,7 +47,7 @@ const Gallery = () => {
                     data-aos-duration="600"
                   />
                   <img
-                    src="./images/gallery/Thar3.png"
+                    src="./images/gallery/Thar3.png" alt="gallery-img2"
                     className="m-3 img-fit"
                     data-aos="zoom-in-up"
                     data-aos-offset="200"
@@ -57,7 +57,7 @@ const Gallery = () => {
                 </div>
                 <div>
                   <img
-                    src="./images/gallery/Thar4.png"
+                    src="./images/gallery/Thar4.png"  alt="gallery-img3"
                     className="m-3 img-fit"
                     data-aos="zoom-in-up"
                     data-aos-offset="200"
@@ -65,7 +65,7 @@ const Gallery = () => {
                     data-aos-duration="600"
                   />
                   <img
-                    src="./images/gallery/Thar6.png"
+                    src="./images/gallery/Thar6.png" alt="gallery-img4"
                     className="m-3 img-fit"
                     data-aos="zoom-in-up"
                     data-aos-offset="200"

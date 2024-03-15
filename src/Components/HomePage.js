@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Header from "./Header";
-import AOS from "aos";
 import "aos/dist/aos.css";
 const HomePage = () => {
    
