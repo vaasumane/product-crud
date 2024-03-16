@@ -7,7 +7,7 @@ const Gallery = () => {
   }, []);
   return (
     <>
-      <div className="gallery-section relative text-white">
+      <div className="gallery-section relative text-white" id="gallery">
         <div className="sm:p-5 lg:px-9">
           <div className="p-8 z-20">
             <div

@@ -5,7 +5,7 @@ const HomePage = () => {
    
   return (
     <>
-    <div className="section-home">
+    <div className="section-home" id="homepage">
       <Header/>
       <div className=" text-white lg:w-2/4 h-screen-header float-right align-middle px-4 flex justify-center flex-col home-container" >
         <h1 className="text-6xl lg:text-8xl font-semibold pb-5 big-text-shadow fade-in-left">

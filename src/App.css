@@ -10,7 +10,7 @@
     ),
     url("./images/main-bg-img.jpg");
   height: 100vh;
-  z-index: -1;
+  /* z-index: -1; */
   position: relative;
 }
 .nav-item{
@@ -148,4 +148,10 @@ html body {
 }
 .border-gray{
   border-color: #76787a!important;
+}
+@media (max-width: 760px) {
+  .header-menu-item {
+  position: absolute;
+  top: 100px;
+  }
 }

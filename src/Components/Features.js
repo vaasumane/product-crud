@@ -16,7 +16,7 @@ const Features = () => {
 
   return (
     <>
-      <div className="bg-black relative text-white">
+      <div className="bg-black relative text-white" id="features">
         <div className="sm:p-5 lg:px-14 ">
           {/* <div className="grid lg:grid-flow-col gap-8 px-9"> */}
           <div className="lg:flex justify-center">

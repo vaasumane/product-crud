@@ -8,7 +8,7 @@ const Explore = () => {
   }, []);
   return (
     <>
-      <div className="explore-section relative text-white">
+      <div className="explore-section relative text-white" id="explore">
         <div className="sm:p-5 lg:p-14">
           <div className="left-strip absolute bottom-0 left-0">
             <img src="./images/left-strip.png" />
